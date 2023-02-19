@@ -8,7 +8,16 @@ I then reviewed the questions of each pillars in the well archtected tool and an
 
 Napkin Design 
 
+
 ![image](https://user-images.githubusercontent.com/21007127/219944190-55013943-aedc-4bd1-b7a4-d3060a69f88e.png)
+
+Logical Diagram 
+
+Link: https://lucid.app/lucidchart/7c50fbbb-ccc5-446c-82f2-907ab88ccfe5/edit?viewport_loc=-824%2C-1682%2C3570%2C1569%2C0_0&invitationId=inv_a5fa08b7-ba72-4d0b-9d7b-ac7edd61c78d
+
+
+![image](https://user-images.githubusercontent.com/21007127/219959055-0f2c35de-7e03-4c30-9d7a-9e5e0c3cbce5.png)
+
 
 
 
