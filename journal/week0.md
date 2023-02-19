@@ -5,3 +5,8 @@ For week 0, I started by destroying the root account credentials with the aim of
 Next, I created an alert by hooking EventBridge to Health Dashboard to SNS so that when there is a service health issue with my resources, I will be notified via mail. 
 
 I then reviewed the questions of each pillars in the well archtected tool and answered the questions. 
+
+Here is the napkin design 
+https://github.com/patty6339/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/NApkin%20Design.jpeg
+
+
