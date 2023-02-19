@@ -6,11 +6,10 @@ Next, I created an alert by hooking EventBridge to Health Dashboard to SNS so th
 
 I then reviewed the questions of each pillars in the well archtected tool and answered the questions. 
 
-Here is the napkin design 
-https://github.com/patty6339/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/NApkin%20Design.jpeg
 
 Napkin Design
 
+https://github.com/patty6339/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/NApkin%20Design.jpeg?raw=true
 
 
 
