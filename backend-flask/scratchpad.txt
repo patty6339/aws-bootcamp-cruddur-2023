@@ -1,0 +1,9 @@
+FRONTEND_URL="*" BACKEND_URL="*" docker run --rm -p 4567:4567 -it backend-flask
+
+docker run --rm -p 4567:4567 -it -e FRONTEND_URL -e BACKEND_URL backend-flask
+
+append /api/activities/home at the end of the local host address before running it
+
+use docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
+
+Make sure port 4567 is open and has a green light on 
