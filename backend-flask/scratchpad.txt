@@ -7,3 +7,5 @@ append /api/activities/home at the end of the local host address before running 
 use docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
 
 Make sure port 4567 is open and has a green light on 
+
+Configured gitpod to allow for pushing changes to main on github
