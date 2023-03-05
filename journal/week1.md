@@ -4,5 +4,10 @@ I also rewatched all the videos listed on the checklist for the week .
 I completed the two quizzes and submitted them.
 I got an opportunity to experiment using cloud9, Snyk, and Clair
 
+Also managed to installed Docker on Ec2 as see below
+
+
+![image](https://user-images.githubusercontent.com/21007127/222971480-07d1d322-6a5f-4cfe-b82b-f1a6a5e176d4.png)
+
 
 
