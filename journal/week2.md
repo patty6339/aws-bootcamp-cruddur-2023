@@ -17,3 +17,7 @@ Added span to the service tab then reran the query
 
 ![image](https://user-images.githubusercontent.com/21007127/223202943-fe5ea871-07e3-4dd4-8ce6-0e1a1b197dea.png)
 
+Aded a heatmap and P90 data and visualized on Honeycomb
+
+![image](https://user-images.githubusercontent.com/21007127/223205774-8db029a6-0e3c-4954-9cab-9214cdc45800.png)
+
