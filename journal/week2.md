@@ -11,3 +11,9 @@ Honeycomb
 
 
 I was able to receive data to my Honeycomb account
+
+Added span to the service tab then reran the query
+
+
+![image](https://user-images.githubusercontent.com/21007127/223202943-fe5ea871-07e3-4dd4-8ce6-0e1a1b197dea.png)
+
