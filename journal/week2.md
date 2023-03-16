@@ -24,7 +24,8 @@ Aded a heatmap and P90 data and visualized on Honeycomb
 
 CONFIGURING X-Ray
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/21007127/225574794-a920e071-1f0f-4270-ad9b-03b0b3273c92.png)
+
 
 
 
