@@ -51,3 +51,14 @@ yum install -y /home/ec2-user/xray.rpm
 
 ![image](https://user-images.githubusercontent.com/21007127/225602757-b2e929de-5818-427c-8186-e5b4d481df56.png)
 
+Cloudwatch Running Successfully
+
+![image](https://user-images.githubusercontent.com/21007127/225756086-cb5923ca-9c1d-4add-8957-0bba915ccd23.png)
+
+Log Events 
+
+![image](https://user-images.githubusercontent.com/21007127/225756561-1d1c4a07-f597-4b18-ab6c-b9cc8b60f0db.png)
+
+
+
+
