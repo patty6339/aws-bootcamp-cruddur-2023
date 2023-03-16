@@ -30,5 +30,24 @@ X-Ray Group Added to AWS
 
 ![image](https://user-images.githubusercontent.com/21007127/225583232-418a9b60-b501-4c6e-ab11-68886a757274.png)
 
+Added Sampling Rule to X-Ray
 
+![image](https://user-images.githubusercontent.com/21007127/225585606-fe57795f-521d-4fc1-ae2a-fcbbfe37799c.png)
+
+Backend is running fine
+
+![image](https://user-images.githubusercontent.com/21007127/225592938-2241a12d-abb1-4107-9dd5-a2d3aec76e08.png)
+
+Send Request Failed on X-ray Deamon
+
+![image](https://user-images.githubusercontent.com/21007127/225593730-2d06b9c7-dc52-4a78-930c-609498039631.png)
+
+Decided to install X-Ray Deamon on Ec2  using this code:
+
+#!/bin/bash
+curl https://s3.us-east-2.amazonaws.com/aws-xray-assets.us-east-2/xray-daemon/aws-xray-daemon-3.x.rpm -o /home/ec2-user/xray.rpm
+yum install -y /home/ec2-user/xray.rpm
+
+
+![image](https://user-images.githubusercontent.com/21007127/225602757-b2e929de-5818-427c-8186-e5b4d481df56.png)
 
