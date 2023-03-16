@@ -26,6 +26,9 @@ CONFIGURING X-Ray
 
 ![image](https://user-images.githubusercontent.com/21007127/225574794-a920e071-1f0f-4270-ad9b-03b0b3273c92.png)
 
+X-Ray Group Added to AWS 
+
+![image](https://user-images.githubusercontent.com/21007127/225583232-418a9b60-b501-4c6e-ab11-68886a757274.png)
 
 
 
