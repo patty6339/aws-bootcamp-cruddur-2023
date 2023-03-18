@@ -2,6 +2,7 @@ from flask import Flask
 from flask import request
 from flask_cors import CORS, cross_origin
 import os
+import logging
 
 from services.home_activities import *
 from services.user_activities import *
@@ -37,14 +38,15 @@ import rollbar
 import rollbar.contrib.flask
 from flask import got_request_exception
 
+# CloudWatch --------
 # Configuring Logger to Use CloudWatch
-# LOGGER = logging.getLogger(__name__)
-# LOGGER.setLevel(logging.DEBUG)
-# console_handler = logging.StreamHandler()
-# cw_handler = watchtower.CloudWatchLogHandler(log_group='cruddur')
-# LOGGER.addHandler(console_handler)
-# LOGGER.addHandler(cw_handler)
-# LOGGER.info("test log")
+#LOGGER = logging.getLogger(__name__)
+#LOGGER.setLevel(logging.DEBUG)
+#console_handler = logging.StreamHandler()
+#cw_handler = watchtower.CloudWatchLogHandler(log_group='cruddur')
+#LOGGER.addHandler(console_handler)
+#LOGGER.addHandler(cw_handler)
+#LOGGER.info("some message")
 
 # HoneyComb-------
 # Initialize tracing and an exporter that can send data to Honeycomb
@@ -149,7 +151,7 @@ def data_create_message():
 
 @app.route("/api/activities/home", methods=['GET'])
 def data_home():
-  data = HomeActivities.run(logger= LOGGER)
+  data = HomeActivities.run()
   return data, 200
 
 @app.route("/api/activities/@<string:handle>", methods=['GET'])
