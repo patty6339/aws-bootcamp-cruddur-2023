@@ -59,6 +59,11 @@ Log Events
 
 ![image](https://user-images.githubusercontent.com/21007127/225756561-1d1c4a07-f597-4b18-ab6c-b9cc8b60f0db.png)
 
+Rollbar running well in the browser
+
+![image](https://user-images.githubusercontent.com/21007127/226113852-3e971711-feac-40b2-89db-747684372b17.png)
+
+
 
 
 
