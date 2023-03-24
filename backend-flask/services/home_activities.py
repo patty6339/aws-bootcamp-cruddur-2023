@@ -68,10 +68,4 @@ class HomeActivities:
 
 
 
-      if param != None:
-      else:
-
-      results.insert(0,)
-      span.set_attribute("app.result_length", len(results))
-      return results
     
