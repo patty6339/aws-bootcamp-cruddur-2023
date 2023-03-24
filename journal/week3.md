@@ -44,6 +44,13 @@ aws cognito-idp admin-set-user-password \
   methods="OPTIONS,GET,HEAD,POST"
 )
   
+Revamped the UI by changing color of the background and the borders
   
+  ![image](https://user-images.githubusercontent.com/21007127/227528770-bb96a25e-2b24-4cd9-bc2a-df0eb7053496.png)
+
+  This was the result 
+  
+ ![image](https://user-images.githubusercontent.com/21007127/227554665-5b92ca1c-84c5-42a5-9aa5-e8e2529747d7.png)
+ 
 
 
