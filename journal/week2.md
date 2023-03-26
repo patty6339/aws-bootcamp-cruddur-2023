@@ -5,7 +5,7 @@ First challenge was with installing npm packages on the frontend. I tried ruunin
 
 it finally worked
 
-#Honeycomb#
+# h1 Honeycomb
 
 ![image](https://user-images.githubusercontent.com/21007127/223192577-2cdf4d4e-e635-49e8-b5c5-532712074f49.png)
 
