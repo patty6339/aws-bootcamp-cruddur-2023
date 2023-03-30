@@ -33,10 +33,10 @@ from opentelemetry.sdk.trace.export import ConsoleSpanExporter, SimpleSpanProces
 from aws_xray_sdk.core import xray_recorder
 from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
 
-# Cloudwatch Logs ----
-# import watchtower
-# import logging
-# from time import strftime
+#Cloudwatch Logs ----
+import watchtower
+import logging
+from time import strftime
 
 # RollBar ----
 import os
@@ -44,7 +44,7 @@ import rollbar
 import rollbar.contrib.flask
 from flask import got_request_exception
 
-# Configuring Logger to Use CloudWatch
+#Configuring Logger to Use CloudWatch
 # LOGGER = logging.getLogger(__name__)
 # LOGGER.setLevel(logging.DEBUG)
 # console_handler = logging.StreamHandler()
@@ -54,14 +54,14 @@ from flask import got_request_exception
 # LOGGER.info("test log")
 
 #HoneyComb ----------
-# Initialize tracing and an exporter that can send data to Honeycomb
-# provider = TracerProvider()
+#Initialize tracing and an exporter that can send data to Honeycomb
+provider = TracerProvider()
 # processor = BatchSpanProcessor(OTLPSpanExporter())
 # provider.add_span_processor(processor)
 
 # X-RAY -------------
 # xray_url = os.getenv("AWS_XRAY_URL")
-# xray_recorder.configure(servcie='backend-flask', dynamic_naming=xray_url)
+# xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
 
 # Show this in the logs within the backend-flask app (STDOUT)
 simple_processor = SimpleSpanProcessor(ConsoleSpanExporter())
@@ -73,15 +73,14 @@ tracer = trace.get_tracer(__name__)
 app = Flask(__name__)
 
 cognito_jwt_token = CognitoJwtToken(
-  user_pool_id= os.getenv("AWS_COGNITO_USER_POOL_ID"), 
-  user_pool_client_id= os.getenv("AWS_COGNITO_USER_POOL_CLIENT_ID"), 
-  region= os.getenv("AWS_DEFAULT_REGION")
+ user_pool_id= os.getenv("AWS_COGNITO_USER_POOL_ID"), 
+ user_pool_client_id= os.getenv("AWS_COGNITO_USER_POOL_CLIENT_ID"),
+ region= os.getenv("AWS_DEFAULT_REGION")
 )
-
 # X-RAY -------------
 # XRayMiddleware(app, xray_recorder)
-#xray_url = os.getenv("AWS_XRAY_URL")
-#xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
+# xray_url = os.getenv("AWS_XRAY_URL")
+# xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
 
 #HoneyComb ----------
 # Initialize automatic instrumentation with Flask  
@@ -102,7 +101,7 @@ cors = CORS(
 # @app.after_request
 # def after_request(response):
 #    timestamp = strftime('[%Y-%b-%d %H:%M]')
-#   LOGGER.error('%s %s %s %s %s %s', timestamp, request.remote_addr, request.method, request.scheme, request.full_path, response.status)
+#    LOGGER.error('%s %s %s %s %s %s', timestamp, request.remote_addr, request.method, request.scheme, request.full_path, response.status)
 #    return response
 
 # RollBar -------
