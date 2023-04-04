@@ -17,6 +17,9 @@ tasks:
       sudo apt update
       sudo apt install -y postgresql-client-13 libpq-dev
       exit
+    command: |
+      export GITPOD_IP=$(curl ifconfig.me)
+      source  "$THEIA_WORKSPACE_ROOT/backend-flask/db-update-sg-rule
 #Automating the running of npm to each time the container is started.
   - name: react-js
     init: |
