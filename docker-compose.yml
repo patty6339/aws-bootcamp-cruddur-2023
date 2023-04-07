@@ -39,7 +39,7 @@ services:
       - "3000:3000"
     volumes:
       - ./frontend-react-js:/frontend-react-js
-  # Dynamo Database configuration ---- Start -----------
+  # #Dynamo Database configuration ---- Start -----------
   # dynamodb-local:
   #   # https://stackoverflow.com/questions/67533058/persist-local-dynamodb-data-in-volumes-lack-permission-unable-to-open-databa
   #   # We needed to add user:root to get this working.
@@ -52,7 +52,7 @@ services:
   #   volumes:
   #     - "./docker/dynamodb:/home/dynamodblocal/data"
   #   working_dir: /home/dynamodblocal
-  # Dynamo Database configuration ---- End -----------
+  # #Dynamo Database configuration ---- End -----------
   db:
     image: postgres:13-alpine
     restart: always
