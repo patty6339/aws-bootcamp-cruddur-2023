@@ -11,3 +11,7 @@ gp env CONNECTION_URL="postgresql://postgres:password@localhost:5432/cruddur"
 
 export PROD_CONNECTION_URL="postgresql://cruddurroot:Patty6339@cruddur-db-instance.cn2hwnx0xjuc.us-east-1.rds.amazonaws.com:5432/cruddur"
 gp env PROD_CONNECTION_URL="postgresql://cruddurroot:Patty6339@cruddur-db-instance.cn2hwnx0xjuc.us-east-1.rds.amazonaws.com:5432/cruddur"
+
+#For installing postgres 
+
+#sudo apt-get install postgresql postgresql-contrib
